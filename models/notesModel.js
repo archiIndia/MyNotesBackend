@@ -19,7 +19,6 @@ const NotesSchema = new Schema({
     type: Date,
     require: true,
     default: Date.now,
-  
   }
 });
 

@@ -10,9 +10,9 @@ const {
 
 notes
   .post("/", createNote)
+  .get("/:id", getOneNote)
   .get("/", getAllNotes)
   .delete("/:del_id", deleteNote)
-  .get("/:id", getOneNote)
   .put("/:find_id", updateNote);
 
 module.exports = notes;
